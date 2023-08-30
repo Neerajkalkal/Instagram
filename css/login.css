@@ -1,0 +1,105 @@
+.container {
+    display: flex;
+    width: 350px;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    padding-top: 8px;
+}
+
+.box1 img {
+    padding: 0px 100px 0px 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 50px;
+    width: 174px;
+}
+
+.box1 {
+    color: rgb(var(--ig-primary-text));
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    border: 1px solid rgba(212, 201, 201, 0.813);
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.box2 {
+    display: flex;
+}
+
+.bar2 {
+    padding-top: 10px;
+    border-top-left-radius: 2px;
+}
+
+.text {
+    height: 37.6px;
+    width: 268.4px;
+    padding-left: 10px;
+    justify-content: center;
+    justify-content: space-between;
+    border: 1px solid rgb(219, 219, 219);
+    background-color: rgba(235, 230, 230, 0.465);
+    border-radius: 4px;
+}
+
+::-webkit-input-placeholder {
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+.button {
+    background-color: rgba(0, 149, 246, 0.3);
+    width: 278.4px;
+    height: 34.6px;
+    border-radius: 9px;
+    color: white;
+    border-color: transparent;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.log :hover {
+    cursor: pointer;
+    background-color: #287FF0;
+    color: white;
+}
+
+.face :hover {
+    cursor: pointer;
+}
+
+.sign {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    padding-top: 10px;
+}
+
+.up {
+    justify-content: center;
+    border: 1px solid rgba(212, 201, 201, 0.813);
+    width: 375.6px;
+    height: 62.6px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    font-weight: 500;
+}
+
+.navbar span {
+    color: gray;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.navbar span a {
+    text-decoration: none;
+    color: grey;
+}
